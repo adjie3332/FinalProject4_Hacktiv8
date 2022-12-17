@@ -1,0 +1,98 @@
+body {
+    background-image: url("./assets/bg-main.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.container .row .header {
+    font-size: 32px;
+    font-family: monospace;
+}
+/* .showTemp {
+    padding-left: 42px;
+} */
+
+/* #main {
+    height: 100%;
+    margin-top:32px;
+} */
+
+/* Detail */
+.detail-bg {
+    backdrop-filter: blur(8px) saturate(166%);
+    -webkit-backdrop-filter: blur(8px) saturate(166%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    height: 100%;
+}
+
+.rincian {
+    padding: 0 12px;
+}
+
+.imgCuaca {
+    width: 50%;
+    height: 50%;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 32px;
+    padding: 0 12px;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.rincian {
+    margin-top: 10%;
+
+}
+
+.tileCuaca {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.subCuaca {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Map  */
+#map {
+    height: 75vh;
+    border-radius: 12px;
+}
+
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
